@@ -1,15 +1,15 @@
 protobuf-example
 ================
 
-This example constists of separate Go and Java projects which utilize the same protobuf definitions. 
+This example consists of separate Go and Java projects which utilize the same protobuf definitions.
 
 * https://code.google.com/p/protobuf/
 * https://code.google.com/p/goprotobuf/
 * https://developers.google.com/protocol-buffers/docs/overview
 
-You will need protocol buffers 2.5.0 or later and mercurial (http://mercurial.selenic.com/) and the Go protobuf support pacakge.
+You will need protocol buffers 2.5.0 or later and mercurial (http://mercurial.selenic.com/) and the Go protobuf support package.
 
-To doownload the Go protobuf support package:
+To download the Go protobuf support package:
 
 go get code.google.com/p/goprotobuf/{proto,protoc-gen-go}
 
@@ -20,7 +20,7 @@ Under the **java/** directory is the Java project which utilizes the artifacts g
 
 Under the **proto/** directory are the source proto files.
 
-**gen_sources.sh** in the root directoy illustrates how to generate sources in Java and Go from the proto files.
+**gen_sources.sh** in the root directory illustrates how to generate sources in Java and Go from the proto files.
 
 
 
