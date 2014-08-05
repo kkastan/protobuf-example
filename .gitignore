@@ -1,0 +1,14 @@
+
+**/.DS_Store
+**/.idea
+
+go/bin
+go/src/kastan/generated/
+go/pkg
+go/src/code.google.com/
+
+java/src/main/generated/
+java/target
+
+**/*.iml
+

@@ -1,0 +1,10 @@
+package phone;
+
+option java_package = "net.kastan.phone";
+
+enum MobileOs {
+  ANDROID = 0;
+  IOS = 1;
+  WINDOWS = 2;
+  OTHER = 3;
+}
