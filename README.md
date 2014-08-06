@@ -14,6 +14,8 @@ To download the Go protobuf support package:
 go get code.google.com/p/goprotobuf/{proto,protoc-gen-go}
 
 
+Note: This will install **protoc-gen-go** to go/bin. You will need **protoc-gen-go** in your PATH as it is called from **gen_sources.sh**.
+
 Under the **go/** directory is the Go project which utilizes the artifacts generated from proto/phone.proto. See go/src/protobuf-example.go. You'll need to set you're GOPATH environment variable to this directory.
 
 Under the **java/** directory is the Java project which utilizes the artifacts generated from proto/phone.proto. See PhoneTest.java.
